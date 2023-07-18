@@ -1,7 +1,7 @@
 import "./style.scss"
 import useFetch from "../../hooks/useFetch";
 import { useParams } from "react-router-dom";
-import Detailsbanner from "./detailsBanner/Detailsbanner";
+import DetailsPoster from "./detailsBanner/DetailsPoster";
 import Cast from "./cast/Cast";
 import VideosSection from "./videosSection/VideoSection";
 import Similar from "./carousels/Similar";
@@ -20,7 +20,7 @@ console.log(data)
   return (
     <div>
     <Header/>
-      <Detailsbanner video={data?.results?.[0]} crew={credits?.crew}/>
+      <DetailsPoster video={data?.results?.[0]} crew={credits?.crew}/>
       <Cast data={credits?.cast} loading={creditsLoading} />
       <VideosSection data={data} loading={loading}/>
       <Similar mediaType={mediaType} id={id}/>

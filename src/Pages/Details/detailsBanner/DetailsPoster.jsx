@@ -13,7 +13,7 @@ import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 
-const Detailsbanner = ({ video, crew }) => {
+const DetailsPoster = ({ video, crew }) => {
   const { mediaType, id } = useParams();
   const { data, loading } = useFetch(`/${mediaType}/${id}`);
 
@@ -183,4 +183,4 @@ const Detailsbanner = ({ video, crew }) => {
   );
 };
 
-export default Detailsbanner;
+export default DetailsPoster;
