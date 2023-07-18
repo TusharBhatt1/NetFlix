@@ -1,9 +1,8 @@
 import {
-  
     FaLinkedin,
 } from "react-icons/fa";
 
-// import LanguageIcon from '@mui/icons-material/Language';
+
 import {
     AiOutlineMail
 } from "react-icons/Ai"
