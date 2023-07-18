@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-
 import "./style.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
@@ -42,8 +41,10 @@ const DetailsBanner = ({ video, crew }) => {
       {!loading ? (
         <>
           {!!data && (
+            
             <React.Fragment>
               <div className="backdrop-img">
+                
                 <Img src={url.backdrop + data.backdrop_path} />
               </div>
               <div className="opacity-layer"></div>

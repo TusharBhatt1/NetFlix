@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Select from "react-select";
-
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 import useFetch from "../../hooks/useFetch";
@@ -108,6 +108,8 @@ const Explore = () => {
             <ContentWrapper>
                 <div className="pageHeader">
                     <div className="pageTitle">
+                   <Link to="/home" style={{textDecoration:"none",fontFamily:"serif",fontWeight:"800"}} ><p style={{color:"white",marginBottom:"10px"}}>Back</p></Link>
+
                         {mediatype === "tv"
                             ? "Explore TV Shows"
                             : "Explore Movies"}
