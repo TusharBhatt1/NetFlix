@@ -3,9 +3,7 @@ import {
 } from "react-icons/fa";
 
 
-import {
-    AiOutlineMail
-} from "react-icons/Ai"
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -45,7 +43,7 @@ const handleIcon=(platform)=>{
                         <FaLinkedin />
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
-                        <AiOutlineMail />
+                        <MailOutlineIcon />
                     </span>
     
                 </div>
