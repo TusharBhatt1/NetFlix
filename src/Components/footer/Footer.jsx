@@ -1,7 +1,3 @@
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
@@ -37,10 +33,10 @@ const handleIcon=(platform)=>{
                        W
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
-                        <LinkedInIcon/>
+                      L
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
-                        <MailOutlineIcon />
+                       M
                     </span>
     
                 </div>
