@@ -1,4 +1,7 @@
 import ContentWrapper from "../contentWrapper/ContentWrapper";
+import CoPresentIcon from '@mui/icons-material/CoPresent';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 import "./style.scss";
 
@@ -30,13 +33,13 @@ const handleIcon=(platform)=>{
                 <div className="socialIcons">
                   
                     <span className="icon"  onClick={()=>handleIcon("Portfolio")}>
-                       W
+                       <CoPresentIcon/>
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
-                      L
+                      <LinkedInIcon/>
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
-                       M
+                       <MailOutlineIcon/>
                     </span>
     
                 </div>
