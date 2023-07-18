@@ -1,5 +1,5 @@
 import Footer from "../../Components/footer/Footer"
-import Header from "../../Components/header/header"
+import Header from "../../Components/header/Header"
 import "./style.scss"
 
 export default function PageNotFound() {
