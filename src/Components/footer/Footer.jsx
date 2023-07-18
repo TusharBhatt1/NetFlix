@@ -1,8 +1,4 @@
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import CoPresentIcon from '@mui/icons-material/CoPresent';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-
 import "./style.scss";
 
 const Footer = () => {
@@ -33,13 +29,13 @@ const handleIcon=(platform)=>{
                 <div className="socialIcons">
                   
                     <span className="icon"  onClick={()=>handleIcon("Portfolio")}>
-                       <CoPresentIcon/>
+                       W
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
-                      <LinkedInIcon/>
+                      L
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
-                       <MailOutlineIcon/>
+                       M
                     </span>
     
                 </div>
