@@ -38,7 +38,7 @@ useEffect(()=>{
   return (
     <div>
         {showCreator && <div className="Creator">
-        <img src={logo} style={{height:"55%", width:"30%"}} alt="Tushar Bhatt"/>
+        <img src={logo}  alt="Tushar Bhatt"/>
         </div>}
         {showWelcome && <div className="welcomeScreen">
         
