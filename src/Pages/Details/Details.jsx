@@ -6,7 +6,7 @@ import Cast from "./cast/Cast";
 import VideosSection from "./videosSection/VideoSection";
 import Similar from "./carousels/Similar";
 import Recommendation from "./carousels/Recommendation";
-import Header from "../../Components/header/header";
+import Header from "../../Components/header/Header";
 import Footer from "../../Components/footer/Footer";
 
 export default function Details() {
