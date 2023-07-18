@@ -8,8 +8,8 @@ import "./style.scss";
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../Components/contentWrapper/ContentWrapper";
-import MovieCard from "../../components/movieCard/MovieCard";
-import Spinner from "../../components/spinner/Spinner";
+import MovieCard from "../../Components/movieCard/MovieCard";
+import Spinner from "../../Components/spinner/Spinner";
 import Header from "../../Components/header/Header";
 import Footer from "../../Components/footer/Footer";
 

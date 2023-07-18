@@ -6,13 +6,13 @@ import "./style.scss";
 
 import ContentWrapper from "../../../Components/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/genres/Genres";
+import Genres from "../../../Components/genres/Genres";
 
-import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
+import CircleRating from "../../../Components/circleRating/CircleRating";
+import Img from "../../../Components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
-import VideoPopup from "../../../components/videoPopup/VideoPopup";
+import VideoPopup from "../../../Components/videoPopup/VideoPopup";
 
 const DetailsPoster = ({ video, crew }) => {
   const { mediaType, id } = useParams();
