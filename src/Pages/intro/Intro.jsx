@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect"
 
 import "./style.scss"
 import { useNavigate } from "react-router-dom"
-import logo from "../../assets/Entry.png"
+import logo from "../../assets/Entry.jpg"
 export default function Intro() {
 
 let [showCreator, setShowCreator]= useState(true)
@@ -39,6 +39,10 @@ useEffect(()=>{
     <div>
         {showCreator && <div className="Creator">
         <img src={logo}  alt="Tushar Bhatt"/>
+        <div>
+        <h2>Tushar Bhatt</h2>
+        <h4>Front End Engineer</h4>
+        </div>
         </div>}
         {showWelcome && <div className="welcomeScreen">
         
