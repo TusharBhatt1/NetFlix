@@ -27,7 +27,7 @@ useEffect(()=>{
        },1200)
       },3200)
 
-    },2000)
+    },3000)
 
     return(
       setShowLoader(false)
