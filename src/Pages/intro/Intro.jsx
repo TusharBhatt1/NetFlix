@@ -24,8 +24,8 @@ useEffect(()=>{
       
        setTimeout(()=>{
        navigate("/home")
-       },1200)
-      },3200)
+       },2000)
+      },3000)
 
     },3000)
 
