@@ -1,14 +1,9 @@
-import React from "react";
 import {
-    FaFacebookF,
-    FaInstagram,
-    FaTwitter,
+  
     FaLinkedin,
 } from "react-icons/fa";
 
-import {
-    CgWebsite
-} from "react-icons/Cg"
+// import LanguageIcon from '@mui/icons-material/Language';
 import {
     AiOutlineMail
 } from "react-icons/Ai"
@@ -45,7 +40,7 @@ const handleIcon=(platform)=>{
                 <div className="socialIcons">
                   
                     <span className="icon"  onClick={()=>handleIcon("Portfolio")}>
-                        <CgWebsite/>
+                       W
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
                         <FaLinkedin />
