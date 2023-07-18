@@ -1,7 +1,4 @@
-import {
-    FaLinkedin,
-} from "react-icons/fa";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
@@ -40,7 +37,7 @@ const handleIcon=(platform)=>{
                        W
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
-                        <FaLinkedin />
+                        <LinkedInIcon/>
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
                         <MailOutlineIcon />
