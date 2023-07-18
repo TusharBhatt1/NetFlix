@@ -1,5 +1,5 @@
 import Footer from "../../Components/footer/Footer"
-import Header from "../../Components/header/header"
+import Header from "../../Components/header/Header"
 import HeroBanner from "./heroBanner/HeroBanner"
 import Popular from "./popular/Popular"
 import "./style.scss"
