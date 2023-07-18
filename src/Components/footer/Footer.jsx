@@ -1,5 +1,6 @@
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import "./style.scss";
+import LanguageIcon from '@mui/icons-material/Language';
 
 const Footer = () => {
 
@@ -29,7 +30,7 @@ const handleIcon=(platform)=>{
                 <div className="socialIcons">
                   
                     <span className="icon"  onClick={()=>handleIcon("Portfolio")}>
-                       W
+                       <LanguageIcon/>
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
                       L
