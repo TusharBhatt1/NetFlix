@@ -8,8 +8,6 @@ import Details from "./Pages/Details/Details"
 import Explore from "./Pages/Explore/Explore"
 import PageNotFound from "./Pages/404/PageNotFound"
 import SearchResults from "./Pages/SearchResults/searchResults"
-import Header from "./Components/header/header"
-import Footer from "./Components/footer/Footer"
 import Intro from "./Pages/intro/Intro"
 
 function App() {
