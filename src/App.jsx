@@ -7,7 +7,7 @@ import Home from "./Pages/Home/Home"
 import Details from "./Pages/Details/Details"
 import Explore from "./Pages/Explore/Explore"
 import PageNotFound from "./Pages/404/PageNotFound"
-import SearchResults from "./Pages/SearchResults/searchResults"
+import SearchResults from "./Pages/SearchResults/SearchResults"
 import Intro from "./Pages/intro/Intro"
 
 function App() {
