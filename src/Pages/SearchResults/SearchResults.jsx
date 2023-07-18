@@ -10,6 +10,7 @@ import MovieCard from "../../Components/moviecard/MovieCard";
 
 import Spinner from "../../Components/spinner/Spinner";
 import Header from "../../Components/header/Header";
+import Footer from "../../Components/footer/Footer";
 
 
 const SearchResult = () => {

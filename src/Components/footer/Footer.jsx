@@ -26,14 +26,14 @@ const handleIcon=(platform)=>{
              <div className="menuItems">
             <p >Creator : <span style={{fontWeight:"800"}}>Tushar Bhatt</span> </p>
             </div>
-         
+            <p>To Connect :</p>
                 <div className="socialIcons">
                   
                     <span className="icon"  onClick={()=>handleIcon("Portfolio")}>
                        W
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("linkedIn")} >
-                      L
+                      In
                     </span>
                     <span className="icon"  onClick={()=>handleIcon("email")} >
                        M
