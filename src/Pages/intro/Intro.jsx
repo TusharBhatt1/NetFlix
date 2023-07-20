@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect"
 
 import "./style.scss"
 import { useNavigate } from "react-router-dom"
-import logo from "../../assets/Entry.png"
 export default function Intro() {
 
 let [showCreator, setShowCreator]= useState(true)
