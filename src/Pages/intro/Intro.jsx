@@ -23,7 +23,7 @@ useEffect(()=>{
       
        setTimeout(()=>{
        navigate("/home")
-       },2000)
+       },1800)
       },3000)
 
     },3000)
